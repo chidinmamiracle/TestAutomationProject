@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 
-public class MouseAndKeyboardOperations extends EntryBehaviour{
+public class MouseAndKeyboardOperations extends Base{
 	
 	@Test
 	public void mouse() throws InterruptedException {

@@ -6,9 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 
-public class Tc_003_Mouse_Operation extends EntryBehaviour {
+public class Tc_003_Mouse_Operation extends Base {
 
 	
 	@Test

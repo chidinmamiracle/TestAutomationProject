@@ -28,7 +28,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import test.utility.ScreenShot;
 
-public class EntryBehaviour {
+public class Base {
 	
  public WebDriver driver;
  public LoginPages login;

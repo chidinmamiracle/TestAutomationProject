@@ -1,9 +1,9 @@
 package selenium_tutorial;
 
 import org.openqa.selenium.By;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 
-public class Tc_007_homepage extends EntryBehaviour{
+public class Tc_007_homepage extends Base{
 
 	
 	public void home() {

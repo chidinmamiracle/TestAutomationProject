@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.web.automation.entryBehaviour.ApplicationProperties;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 import org.web.automation.entryBehaviour.SreenshotOfPrject;
 
 import com.aventstack.extentreports.Status;
 
-public class LoginPages extends EntryBehaviour{
+public class LoginPages extends Base{
  
 	ActionWaitPages action;
 	

@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 
-public class Tc005_Wait_Class extends EntryBehaviour{
+public class Tc005_Wait_Class extends Base{
 
 	@Test
 	//driver.manage().TimeOuts().implicitlywait(60,Timeunits.SECONDS); Its use to load elements

@@ -12,9 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import org.web.automation.POM.RegitrationPages;
 import org.web.automation.entryBehaviour.ApplicationProperties;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 
-public class Tc_006_Login extends EntryBehaviour {
+public class Tc_006_Login extends Base {
 	
 	@Test
 	public void loginFunctions() throws InterruptedException, IOException {

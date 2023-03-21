@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 import org.web.automation.POM.LoginPages;
 import org.web.automation.POM.RegitrationPages;
 import org.web.automation.entryBehaviour.ApplicationProperties;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 import org.web.automation.entryBehaviour.SreenshotOfPrject;
 
 import com.aventstack.extentreports.Status;
 
 
-public class Tc_001_Registration_Functions extends EntryBehaviour {
+public class Tc_001_Registration_Functions extends Base {
 	
 	
 	LoginPages login;

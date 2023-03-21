@@ -8,10 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.web.automation.entryBehaviour.EntryBehaviour;
+import org.web.automation.entryBehaviour.Base;
 import org.web.automation.entryBehaviour.SreenshotOfPrject;
 
-public class ActionWaitPages extends EntryBehaviour{
+public class ActionWaitPages extends Base{
 	
 //	WebDriver driver = null;
 	WebDriverWait wait;
